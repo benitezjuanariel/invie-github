@@ -9,16 +9,20 @@
         margin: 0;
         border: 10px solid red;
       }
-      img
-      {
-        max-width: 100%;
-        vertical-align: top;
+
+    @media screen and (max-width:768px) {
+      img#responsive {
+        display: block;
       }
-    </style>
-  </head>
-  <body>
-    <img src="Resources/header.jpeg"/>
-    <img src="Resources/hero.jpeg" alt="">
-    <img src="Resources/acustica.jpeg" alt="">
-  </body>
+    }
+  </style>
+</head>
+
+<body>
+  <img src="Resources/invie-responsive.png" alt="" id="responsive">
+  <img src="Resources/header.jpeg" />
+  <img src="Resources/hero.jpeg" alt="">
+  <img src="Resources/acustica.jpeg" alt="">
+</body>
+
 </html>
